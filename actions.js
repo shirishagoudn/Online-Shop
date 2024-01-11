@@ -3,7 +3,7 @@ let womenElement = document.getElementById("womenEle");
 let kidsElement = document.getElementById("kidsEle");
 
 const productData = {
-    // ... (the provided API response)
+    // API response
     "categories": [{
             "category_name": "men",
             "category_products": [{
@@ -261,5 +261,5 @@ function showCategory(categoryName) {
     displayProducts(categoryName);
 }
 
-// Initial display (show Men category by default)
+// Initial display (show women category by default)
 displayProducts('women');
